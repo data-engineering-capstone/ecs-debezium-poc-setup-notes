@@ -24,6 +24,14 @@ su -s ${USER}
 docker run hello-world
 ```
 
+
+AWS if `Docker-Compose can't connect to Docker Daemon`
+```
+sudo chown $USER /var/run/docker.sock
+```
+https://stackoverflow.com/questions/34532696/docker-compose-cant-connect-to-docker-daemon
+
+
 [stack overflow (worked)](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
 
 [digital ocean post](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
