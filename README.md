@@ -1,2 +1,24 @@
-# ecs-debezium-poc-setup-notes
-this is a setup note collected during the setup of mysql, debezium stack on aws ecs
+# ECS Debezium POC Setup Notes
+this is a setup note collected during the setup of mysql, debezium stack on aws ecs.
+
+https://aws.amazon.com/ecs/
+
+
+
+# Setup cluster
+
+![image-20210127233119744](README.assets/image-20210127233119744.png)
+
+Create cluster
+
+![image-20210127233203251](README.assets/image-20210127233203251.png)
+
+use 'Fargate'
+
+![image-20210127233300610](README.assets/image-20210127233300610.png)
+
+configure cluster, create
+
+![image-20210127233455197](README.assets/image-20210127233455197.png)
+
+finalize setup.
