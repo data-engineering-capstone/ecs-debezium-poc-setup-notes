@@ -1,9 +1,11 @@
 # ECS Debezium POC Setup Notes
 this is a setup note collected during the setup of mysql, debezium stack on aws ecs.
 
-https://aws.amazon.com/ecs/
+[ecs link](https://aws.amazon.com/ecs/)
 
+[video tutorial](https://www.youtube.com/watch?v=kQBGbmrdYO4)
 
+[debezium quick start](https://debezium.io/documentation/reference/tutorial.html#starting-mysql-database)
 
 # Setup cluster
 
@@ -22,3 +24,6 @@ configure cluster, create
 ![image-20210127233455197](README.assets/image-20210127233455197.png)
 
 finalize setup.
+
+
+
